@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Discover California destinations with a beginner-friendly travel app.">
+    <title>ExploreCalifornia</title>
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <script type="module" src="./src/app.js"></script>
+  </head>
+  <body>
+    <header>
+      <p class="eyebrow">Your next California adventure</p>
+      <h1>ExploreCalifornia</h1>
+      <p>Find a city, beach, or nature escape to explore.</p>
+    </header>
+    <main>
+      <label for="search">Search destinations</label>
+      <input id="search" type="search" placeholder="Try San Diego or beach">
+      <p id="result-count" role="status" aria-live="polite"></p>
+      <section id="destinations" class="grid" aria-label="Destinations"></section>
+      <p id="empty-message" hidden>No destinations found. Try another search.</p>
+      <noscript>Please enable JavaScript to view destinations.</noscript>
+    </main>
+    <footer>Learning project · Sample destination information</footer>
+  </body>
+</html>

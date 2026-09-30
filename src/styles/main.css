@@ -1,0 +1,16 @@
+:root { font-family: system-ui, sans-serif; color: #183b36; background: #f6f8f4; }
+* { box-sizing: border-box; }
+body { margin: 0; }
+header, main, footer { max-width: 1040px; margin: auto; padding: 24px; }
+header { padding-top: 56px; }
+h1 { font-size: clamp(2rem, 7vw, 3.5rem); overflow-wrap: anywhere; margin: 8px 0; }
+.eyebrow, .category { color: #33664b; font-weight: 700; }
+label { display: block; margin-bottom: 8px; font-weight: 600; }
+input { width: 100%; max-width: 520px; padding: 14px; font: inherit; border: 1px solid #6d8379; border-radius: 8px; }
+input:focus-visible { outline: 3px solid #226b55; outline-offset: 3px; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 260px), 1fr)); gap: 20px; }
+.card { background: white; border: 1px solid #d6dfd7; border-radius: 12px; padding: 24px; }
+.card h2 { margin: 8px 0 12px; }
+.card p { line-height: 1.6; }
+.category { margin: 0; font-size: .85rem; }
+footer { color: #52665c; font-size: .9rem; padding-bottom: 40px; }
